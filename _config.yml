@@ -1,0 +1,4 @@
+name: Dev Tips
+markdown: redcarpet
+pygments: true
+permalink: /:category/:year-:month-:day-:title.html
