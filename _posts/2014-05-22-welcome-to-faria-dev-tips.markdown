@@ -2,7 +2,7 @@
 layout: post
 title:  "Faria Dev Tips!"
 date: 2014-05-22
-category: devtips
+categories: devtips
 ---
 
 Here we are. For some time at Faria we share some tips in our distributed team to improve our synchronicity on small details of our coding life. And all was good and fuzzy.

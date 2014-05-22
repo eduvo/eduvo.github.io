@@ -1,4 +1,6 @@
-name: Dev Tips
+name: Faria Dev Tips
 markdown: redcarpet
 pygments: true
-permalink: /:category/:year-:month-:day-:title.html
+permalink: /:categories/:year-:month-:day-:title.html
+layouts: ./_layouts
+exclude: ['vendor']
