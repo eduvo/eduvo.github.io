@@ -46,6 +46,14 @@ footer {
   float: right; }
 
 /* posts index */
+.posts-list {
+  list-style: none;
+}
+.posts-list span {
+  font-family: monospace;
+  color: #999;
+}
+
 .post > h3.title {
   position: relative;
   padding-top: 10px; }
