@@ -1,3 +1,39 @@
+/* general overrides */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: transparent;
+}
+.navbar-nav>li:hover {
+  background-color: #f3f3f3;
+}
+.page-header {
+  margin: 0 0 10px 0;
+}
+.page-header h1 {
+  font-size: 24px;
+}
+.page-header h1 small {
+  letter-spacing: 2px;
+  color: #ccc;
+}
+.pagination {
+  margin: 16px 0 16px 0;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:hover {
+  color: #ccc;
+}
+footer {
+  border-top: 1px solid #eee;
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  color: #999;
+}
+/* icon fix */
+.baselined {
+  top: 2px;
+}
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -44,22 +80,6 @@
   float: left; }
 
 .tag_box a {
-  padding: 3px 6px;
-  margin: 2px;
-  background: #eee;
-  color: #555;
-  border-radius: 3px;
+  margin: 0 2px;
   text-decoration: none;
-  border: 1px dashed #cccccc; }
-
-.tag_box a span {
-  vertical-align: super;
-  font-size: 0.8em; }
-
-.tag_box a:hover {
-  background-color: #e5e5e5; }
-
-.tag_box a.active {
-  background: #57A957;
-  border: 1px solid #4c964d;
-  color: #FFF; }
+}
