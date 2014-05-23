@@ -6,7 +6,7 @@ tags: rails4 rspec testing
 ---
 On Rails 4 side, I would like to share the code which helps to speed up the tests and resolves the test DB initialization issue. Before running a test, there is the test DB setup action, which clears all tables. But if your test modifies only several tables, it is much better to clear and populate only these tables vs all.
 
-There is a gem for that: https://github.com/bmabey/database_cleaner, which we use and the examples below are related to it.
+There is a gem for that: <https://github.com/bmabey/database_cleaner>, which we use and the examples below are related to it.
 
 To find the tables which got some data after the previous test, the next code can be used:
 
