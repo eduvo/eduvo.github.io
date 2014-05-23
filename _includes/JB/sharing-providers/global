@@ -1,0 +1,46 @@
+<div id="fb-root"></div>
+
+<ul class="post-share">
+
+<!-- Twitter -->
+<li class="tw"><div><a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="devtips"></a></div></li>
+
+<!-- Facebook -->
+<li class="fb"><div class="fb-share-button" data-href="{{ page.permalink }}" data-type="button_count"></div></li>
+
+<!-- Google+ -->
+<li class="gp"><div class="g-plus" data-action="share" data-annotation="bubble"></div></li>
+
+<li><div>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/Share" data-counter="right"></script>
+</div></li>
+</ul>
+
+<script>
+
+(function(doc, script) {
+
+  //Async Social Buttons
+    var js,
+        fjs = doc.getElementsByTagName(script)[0],
+        add = function(url, id) {
+            if (doc.getElementById(id)) {return;}
+            js = doc.createElement(script);
+            js.src = url;
+            id && (js.id = id);
+            fjs.parentNode.insertBefore(js, fjs);
+        };
+
+    // Twitter SDK
+    add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+
+    // Google+ button
+    add('https://apis.google.com/js/plusone.js');
+
+    // Facebook SDK
+    add('//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0', 'facebook-jssdk');
+
+}(document, 'script'));
+
+</script>
