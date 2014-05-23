@@ -86,7 +86,7 @@ JB :
         tracking_id : 'UA-***'
     googleUA :
         tracking_id : 'UA-30848013-6'
-        property_name : 'DevTips'
+        property_name : 'faria.co'
     getclicky :
       site_id :
     mixpanel :
