@@ -5,7 +5,7 @@ markdown: kramdown
 pygments: true
 permalink: /:categories/:year-:month-:day-:title.html
 layouts: ./_layouts
-exclude: ['vendor', ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: ['vendor', ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "todo.todo"]
 author :
   name : Faria United Nerds
   email : nerds@faria.co
