@@ -69,7 +69,10 @@
       <footer>
         <p>
           &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-
+          <span class="pull-right">
+          sponsored by <a href="http://faria.co">Faria Systems Inc.</a>
+          and btw, <a href="http://faria.co/jobs">we hire</a>.
+          </span>
         </p>
       </footer>
     </div>
@@ -77,5 +80,8 @@
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+    {% if page.extrajs %}
+    <script src="{{ ASSET_PATH }}/js/{{ page.extrajs }}.js"></script>
+    {% endif %}
   </body>
 </html>

@@ -1,21 +1,27 @@
 ---
-layout: page
+layout: pagewide
 title: Tags
 header: Posts By Tag
 group: navigation
+extrajs: tags
 ---
 {% include JB/setup %}
 
 <ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
+  {% assign tags_list = site.tags %}
   {% include JB/tags_list %}
 </ul>
 
 
-{% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
+{% for tag in site.tags %}
+<div class="tags col-xs-12 col-md-offset-1 col-md-10" id="{{ tag[0] }}-ref">
+  <h2>{{ tag[0] }}</h2>
+  {% assign pages_list = tag[1] %}
+  <ul class="posts-list">
+    {% for post in pages_list %}
+      <li><span>{{ post.date | date_to_string }} - </span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
   </ul>
+</div>
 {% endfor %}
+
