@@ -60,6 +60,9 @@ footer {
   float: right; }
 
 /* post-full*/
+.post-full {
+  margin-bottom: 40px;
+}
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold;
@@ -95,7 +98,7 @@ footer {
   font-family: monospace;
   color: #999;
 }
-.post-list h3 {
+.post-list h2 {
   border-top: 1px solid #aaa;
   padding-top: 10px;
 }
