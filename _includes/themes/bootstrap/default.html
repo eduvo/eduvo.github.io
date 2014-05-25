@@ -5,8 +5,29 @@
 
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta content='developers, tips, rails, ruby, javascript, devops, coding, coders, code, geek, nerd' name='keywords' />
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google plus -->
+    <meta content='Faria Dev Tips' itemprop='name' />
+    {% if page.description %}<meta itemprop="description" content="{{ page.description }}">{% endif %}
+    <meta content='http://devtips.faria.co/assets/images/faria-devtips.png' itemprop='image' />
+    <!-- facebook opengraph -->
+    <meta content='{{ page.title }}' property='og:title' />
+    <meta content='company' property='og:type' />
+    <meta content='http://devtips.faria.co' property='og:url' />
+    <meta content='http://devtips.faria.co/assets/images/faria-devtips.png' property='og:image' />
+    <meta content='Faria Dev Tips' property='og:site_name' />
+    <meta content='mose' property='fb:admins' />
+    <meta content='{{ page.description }}' property='og:description' />
+    <meta content='25.032137' property='og:latitude' />
+    <meta content='121.559555' property='og:longitude' />
+    <meta content='2/F, No. 3, Lane 27, Section 4, Ren’Ai Road' property='og:street-address' />
+    <meta content='Taipei city' property='og:locality' />
+    <meta content='' property='og:region' />
+    <meta content='106' property='og:postal-code' />
+    <meta content='Taiwan' property='og:country-name' />
+    <meta content='devtips@faria.co' property='og:email' />
 
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
@@ -31,7 +52,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ HOME_PATH }}">&nbsp;</a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">

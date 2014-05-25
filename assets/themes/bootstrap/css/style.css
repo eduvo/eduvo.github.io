@@ -5,6 +5,13 @@
 .navbar-default {
   background-color: transparent;
 }
+.navbar-brand {
+  background: url(/assets/images/faria-devtips.png);
+  background-repeat: no-repeat;
+  background-position: -10px -5px;
+  width: 400px;
+  height: 100%;
+}
 .navbar-nav>li:hover {
   background-color: #f3f3f3;
 }
