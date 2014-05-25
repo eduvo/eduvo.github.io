@@ -12,6 +12,13 @@
   width: 400px;
   height: 100%;
 }
+.navbar-brand-2 {
+  background: url(/assets/images/faria-devtips-2.png);
+  background-repeat: no-repeat;
+  background-position: 5px -25px;
+  width: 400px;
+  height: 100%;
+}
 .navbar-nav>li:hover {
   background-color: #f3f3f3;
 }
