@@ -1,0 +1,47 @@
+{% capture PAGENAV %}
+  {% if paginator.total_pages > 1 %}
+    <div class="pull-right">
+      <ul class="pagination">
+        {% if paginator.previous_page %}
+          <li class="prev">
+            <a href="{{ BASE_PATH }}/{% if paginator.previous_page == 1 %}index.html{% else %}page{{ paginator.previous_page }}{% endif %}">
+              <span class="glyphicon glyphicon-arrow-left baselined"></span> Previous
+            </a>
+          </li>
+        {% else %}
+          <li class="prev disabled">
+            <a>
+              <span class="glyphicon glyphicon-arrow-left baselined"></span> Previous
+            </a>
+          </li>
+        {% endif %}
+        <li><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+        {% if paginator.next_page %}
+          <li class="next">
+            <a href="{{ BASE_PATH }}/page{{ paginator.next_page }}">
+              Next <span class="glyphicon glyphicon-arrow-right baselined"></span>
+            </a>
+          </li>
+        {% else %}
+          <li class="next disabled">
+            <a>
+              Next <span class="glyphicon glyphicon-arrow-right baselined"></span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  {% endif %}
+{% endcapture %}
+
+{{ PAGENAV }}
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    {{ content }}
+  </div>
+  {{ PAGENAV }}
+</div>

@@ -1,0 +1,44 @@
+---
+layout: pagelist
+title: Tips for the devs
+tagline: ... directly from the Faria cave
+---
+{% include JB/setup %}
+
+{% for post in paginator.posts %}
+  <div class="row post-full post-list">
+    <div class="col-md-12">
+      <div class="date pull-right">
+        <span class="btn btn-xs btn-default">{{ post.date | date_to_long_string }}</span>
+      </div>
+      {% unless post.tags == empty %}
+        <ul class="tag_box inline pull-right">
+          {% assign tags_list = post.tags %}
+          {% include JB/tags_list %}
+        </ul>
+      {% endunless %}
+      <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <div class="content">
+        {{ post.content }}
+      </div>
+
+      {% unless post.categories == empty %}
+        <ul class="tag_box inline">
+          <li><i class="glyphicon glyphicon-folder-open"></i></li>
+          {% assign categories_list = post.categories %}
+          {% include JB/categories_list %}
+        </ul>
+      {% endunless %}
+
+
+      <div class="post-sharing">
+       {% include JB/sharing %}
+      </div>
+
+      {% include JB/comments %}
+
+    </div>
+  </div>
+{% endfor %}
+

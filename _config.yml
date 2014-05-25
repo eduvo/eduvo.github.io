@@ -6,6 +6,8 @@ pygments: true
 permalink: /:categories/:year-:month-:day-:title.html
 layouts: ./_layouts
 exclude: ['vendor', ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "src"]
+paginate: 10
+paginate_path: "page:num"
 author :
   name : Faria United Nerds
   email : nerds@faria.co
