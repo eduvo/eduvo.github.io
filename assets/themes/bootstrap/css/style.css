@@ -1,16 +1,28 @@
 /* general overrides */
 .navbar {
   margin-bottom: 0;
+  height: 101px;
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
 }
 .navbar-default {
   background-color: transparent;
 }
+.navbar-header {
+  float: none;
+}
 .navbar-brand {
+  display: block;
   background: url(/assets/images/faria-devtips.png);
   background-repeat: no-repeat;
-  background-position: -10px -5px;
-  width: 400px;
-  height: 100%;
+  background-position: 0 0;
+  float: none;
+  height: 100px;
+  padding: 0;
+  margin-left: -180px!important;
+}
+.collapse{
+  display: block;
 }
 .navbar-brand-2 {
   background: url(/assets/images/faria-devtips-2.png);
@@ -18,6 +30,12 @@
   background-position: 5px -25px;
   width: 400px;
   height: 100%;
+}
+.navbar-collapse{
+  padding: 0;
+}
+.navbar-toggle {
+  float: none;
 }
 .navbar-nav>li:hover {
   background-color: #f3f3f3;
