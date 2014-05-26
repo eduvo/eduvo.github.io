@@ -2,9 +2,11 @@ Devtips roadmap
 
 Frontend:
   ✔ make a draft logo @done (14-05-26 08:17)
-  ☐ rework logo
+  ✔ rework logo @done (14-05-26 17:43)
   ☐ improve css
   ☐ make the tag page triggers the tag present in the hash ie. tags.html#rails should open rails taglist
+  ☐ fix css for small screens
+  ☐ reduce width of central block for posts, 10 instead of 12 should be ok for large screens
 Jekyll:
   ✔ make index a one-page with navigation @done (14-05-26 08:16)
 Content:
