@@ -1,0 +1,14 @@
+Devtips roadmap
+
+Frontend:
+  ✔ make a draft logo @done (14-05-26 08:17)
+  ☐ rework logo
+  ☐ improve css
+  ☐ make the tag page triggers the tag present in the hash ie. tags.html#rails should open rails taglist
+Jekyll:
+  ✔ make index a one-page with navigation @done (14-05-26 08:16)
+Content:
+  ☐ prepare a quick helper for composition of liquid pages
+  ☐ add more info on the about page (contact, team description, ...)
+
+
