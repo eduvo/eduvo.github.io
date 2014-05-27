@@ -6,7 +6,7 @@ tags: pry rails
 ---
 Today I learn a trick to mimic a webhook in console.
 
-Before when i want to test out why the webhook send to OA is not working I have to actually trigger the webhook in other app, like KB. Moreover, it is sometimes hard to make the params identical with the original request.
+Before when I want to test out why the webhook send to OA is not working I have to actually trigger the webhook in other app, like KB. Moreover, it is sometimes hard to make the params identical with the original request.
 
 We can solve this by using the console and the `app` object:
 
