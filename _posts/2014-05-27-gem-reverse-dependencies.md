@@ -48,5 +48,3 @@ sinatra: 1964
 devise:  422
 {% endhighlight %}
 
-
-_mose_

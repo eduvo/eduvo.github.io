@@ -20,5 +20,3 @@ We can solve this by using the console and the `app` object:
 {% endhighlight %}
 
 First I dig through the production log to get the `params` of the webhook. Then I issue `app.post` and that's it! The app get a identical webhook as the log show. No more clicking UI!
-
-_johnny_
