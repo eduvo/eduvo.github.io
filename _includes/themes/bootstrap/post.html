@@ -40,8 +40,8 @@
       <ul class="tag_box inline pull-right">
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
-        {% unless page.authors == empty %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ page.authors }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ page.authors }}">{{ page.authors }}</a></li>
+        {% unless page.categories == empty %}
+        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ page.categories }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ page.categories }}">{{ page.categories }}</a></li>
         {% endunless %}
       </ul>
     {% endunless %}
@@ -52,15 +52,6 @@
     <div class="content">
       {{ content }}
     </div>
-
-    {% unless page.categories == empty %}
-      <ul class="tag_box inline">
-        <li><i class="glyphicon glyphicon-folder-open"></i></li>
-        {% assign categories_list = page.categories %}
-        {% include JB/categories_list %}
-      </ul>
-    {% endunless %}
-
 
     <div class="post-sharing">
      {% include JB/sharing %}
