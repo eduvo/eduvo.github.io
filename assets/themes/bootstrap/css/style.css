@@ -171,3 +171,8 @@ footer {
   color: #468;
   border-radius: inherit;
 }
+
+/* footer */
+.sponsor {
+  text-align: right;
+}

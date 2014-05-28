@@ -68,11 +68,13 @@
       {{ content }}
       <footer>
         <p>
-          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="pull-right">
-          sponsored by <a href="http://faria.co">Faria Systems Inc.</a>
-          and btw, <a href="http://faria.co/jobs">we hire</a>.
+          <span class="pull-right sponsor">
+          Sponsored by <a href="http://faria.co">Faria Systems Inc.</a>
+          <br>and btw, <a href="http://faria.co/jobs">we hire</a>.
           </span>
+          &copy; {{ site.time | date: '%Y' }} <b>{{ site.author.name }}</b>
+          <br>Distributed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC-by-SA-4.0</a>
+          <br>Made with <a href="http://jekyllrb.com">Jekyll</a>
         </p>
       </footer>
     </div>
