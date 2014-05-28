@@ -3,7 +3,7 @@ title: Faria Dev Tips
 tagline: Tips for the dev
 markdown: kramdown
 pygments: true
-permalink: /:categories/:year-:month-:day-:title.html
+permalink: /:year-:month-:day-:title.html
 layouts: ./_layouts
 exclude: ['vendor', ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "src", "todo.todo"]
 paginate: 10
