@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Four fingers swippe
+title:  Four fingers swipe
 tagline: and more crazy gestures
 tags: mac tool
 category: evadne
