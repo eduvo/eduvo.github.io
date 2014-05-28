@@ -15,6 +15,9 @@ tagline: ... directly from the Faria cave
         <ul class="tag_box inline pull-right">
           {% assign tags_list = post.tags %}
           {% include JB/tags_list %}
+          {% unless post.category == empty %}
+          <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ post.category }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ post.category }}">{{ post.category }}</a></li>
+          {% endunless %}
         </ul>
       {% endunless %}
       <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
@@ -22,15 +25,6 @@ tagline: ... directly from the Faria cave
       <div class="content">
         {{ post.content }}
       </div>
-
-      {% unless post.categories == empty %}
-        <ul class="tag_box inline">
-          <li><i class="glyphicon glyphicon-folder-open"></i></li>
-          {% assign categories_list = post.categories %}
-          {% include JB/categories_list %}
-        </ul>
-      {% endunless %}
-
 
       <div class="post-sharing">
        {% include JB/sharing %}

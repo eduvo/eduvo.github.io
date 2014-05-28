@@ -3,6 +3,7 @@ layout: post
 title:  Upgrading to Rails4
 tagline: because it's more than time
 tags: rails rails4 howtos
+category: ihower
 ---
 iHower wanted to point out 2 talks from rubyconf we attended last week, that report about rails upgrade:
 

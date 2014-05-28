@@ -40,6 +40,9 @@
       <ul class="tag_box inline pull-right">
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
+        {% unless page.authors == empty %}
+        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ page.authors }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ page.authors }}">{{ page.authors }}</a></li>
+        {% endunless %}
       </ul>
     {% endunless %}
 

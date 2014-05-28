@@ -3,6 +3,7 @@ layout: post
 title:  SSH to socket
 tagline: "open once, use forever"
 tags: console ssh
+category: mose
 ---
 Mose uses a special trick because he's often ssh'ing all over the place. Add in your `.ssh/config`
 

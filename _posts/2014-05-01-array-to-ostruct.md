@@ -3,6 +3,7 @@ layout: post
 title:  Array to Ostruct
 tagline: monkey patching
 tags: ruby testing
+category: naiting
 ---
 Naiting is doing front-end but he's leveling up in ruby coding, and he found this monkey patching especially useful in the context of testing:
 

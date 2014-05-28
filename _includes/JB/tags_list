@@ -22,11 +22,11 @@ Usage:
 {% else %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref" class="tagbtn btn btn-primary btn-xs" data-tag="{{ tag }}">{{ tag }}</a></li>
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref" class="tagbtn btn btn-primary btn-xs" data-tag="{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" class="tagbtn btn btn-primary btn-xs" data-tag="{{ tag[0] }}">{{ tag[0] }}</a></li>
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" class="tagbtn btn btn-primary btn-xs" data-tag="{{ tag[0] }}">{{ tag[0] }} <span>{{ site.tags[tag[0]].size }}</span></a></li>
     {% endfor %}
   {% endif %}
 {% endif %}

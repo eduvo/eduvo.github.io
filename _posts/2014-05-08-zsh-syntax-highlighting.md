@@ -3,6 +3,7 @@ layout: post
 title:  zsh-syntax-highlighting
 tagline: instant coloring in the console
 tags: console zsh rcfiles
+category: aaronh
 ---
 This week AaronH shares some secrets of his configuration. You can check his whole config setup at <https://github.com/aar0nTw/HomeConf> but there is one special piece in that config.
 

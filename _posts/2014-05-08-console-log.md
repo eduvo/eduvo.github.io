@@ -3,6 +3,7 @@ layout: post
 title:  Console log
 tagline: but shorter because devs are lazy
 tags: javascript coffeescript
+category: naiting
 ---
 Naiting use console.log very frequently, so he has some function when developing (in coffescript)
 

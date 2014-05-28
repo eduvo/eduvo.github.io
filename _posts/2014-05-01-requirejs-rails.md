@@ -3,6 +3,7 @@ layout: post
 title:  Requirejs-rails
 tagline: revived
 tags: rails rails4 javascript assets
+category: aaronh
 ---
 AaronH is pretty happy about the way requirejs is organized on kb and isis, after long efforts.
 

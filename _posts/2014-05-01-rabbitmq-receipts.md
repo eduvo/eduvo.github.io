@@ -3,6 +3,7 @@ layout: post
 title:  RabbitMQ Receipts
 tagline: avoid getting lost in the rabbit hole
 tags: rails rabbitmq
+category: aaronk
 ---
 AaronK recently faced the need to implement a way so that each message from the message queue tells the sender if the message was delivered. He had very interesting reading about it. He works now on getting the sync status that way:
 

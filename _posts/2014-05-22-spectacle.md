@@ -3,6 +3,7 @@ layout: post
 title:  Spectacle
 tagline: for window management on mac
 tags: mac devtool
+category: oliver
 ---
 Oliver has another app to talk about, a free window management tool for mac. Its name is spectacle. <http://spectacleapp.com>
 

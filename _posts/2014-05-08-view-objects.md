@@ -3,6 +3,7 @@ layout: post
 title:  View Objects
 tagline: for a cleaner code in controllers
 tags: rails refactoring
+category: aaronk
 ---
 AaronK wants to detail a bit on what he learned about Models. it may be a bit long but hang on.
 Even we already know the patterns about how to refactor model from this article:

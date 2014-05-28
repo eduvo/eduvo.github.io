@@ -3,6 +3,7 @@ layout: post
 title:  Random User
 tagline: get some faces
 tags: photoshop frontend mockups
+category: oliver
 ---
 Oliver really like that Photoshop extension.
 

@@ -1,0 +1,10 @@
+{% if authors_list.first[0] == null %}
+  {% for author in authors_list %}
+  	<li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ author }}-ref" class="authorsbtn btn btn-info btn-xs" data-authors="{{ author }}">{{ author }} <span>{{ site.categories[author].size }}</span></a></li>
+  {% endfor %}
+{% else %}
+  {% for author in authors_list %}
+  	<li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ author[0] }}-ref" class="authorsbtn btn btn-info btn-xs" data-authors="{{ author[0] }}">{{ author[0] }} <span>{{ site.categories[author[0]].size }}</span></a></li>
+  {% endfor %}
+{% endif %}
+{% assign authors_list = nil %}

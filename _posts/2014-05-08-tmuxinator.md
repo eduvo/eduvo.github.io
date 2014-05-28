@@ -3,6 +3,7 @@ layout: post
 title:  tmuxinator
 tagline: autolaunch all your stuff
 tags: devtool console tmux
+category: ilake
 ---
 ILake always use tmuxinator <https://github.com/tmuxinator/tmuxinator> to manage the services and tool he needs in a project. For example this is what he uses in isis
 

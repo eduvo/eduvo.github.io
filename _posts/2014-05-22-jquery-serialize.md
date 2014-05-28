@@ -3,6 +3,7 @@ layout: post
 title:  jQuery serialize
 tagline: "not just for forms, also for fields"
 tags: mac devtool
+category: aaronk
 ---
 AaronK just met a little jQuery problem and googled the answer. We already know jQuery provide a easy method to serialize all the input elements became a parameter string, such as
 

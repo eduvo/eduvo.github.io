@@ -121,7 +121,7 @@ footer {
   padding-top: 10px;
 }
 .post-list .date {
-  margin: 30px 0 0 10px;
+  margin: 30px 0 0 3px;
 }
 .post-list .tag_box {
   margin: 26px 0 0 0;
@@ -152,4 +152,22 @@ footer {
 }
 .post-share li.fb, .post-share li.gp {
   margin-right: 30px;
+}
+
+/* authors and tags */
+.authorsbtn span {
+  font-size: .8em;
+  background-color: #ade;
+  padding: 1px 3px;
+  margin-left: 3px;
+  color: #8ac;
+  border-radius: inherit;
+}
+.tagbtn span {
+  font-size: .8em;
+  background-color: #9bd;
+  padding: 1px 3px;
+  margin-left: 3px;
+  color: #468;
+  border-radius: inherit;
 }

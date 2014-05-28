@@ -57,6 +57,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  authors_path : /authors.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 

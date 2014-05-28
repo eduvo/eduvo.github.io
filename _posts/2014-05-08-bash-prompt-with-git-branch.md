@@ -3,6 +3,7 @@ layout: post
 title:  Bash prompt with git branch
 tagline: the simple way
 tags: console bash
+category: stephen
 ---
 Stephen is well aware most of us already know about this (or use oh-my-zsh with already prepared themes). Here is what he puts in his `.bash_profile`
 

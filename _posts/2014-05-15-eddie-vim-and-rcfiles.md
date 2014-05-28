@@ -3,6 +3,7 @@ layout: post
 title:  Eddie Vim and rcfiles
 tagline: for rails devs
 tags: vim rcfiles
+category: mose
 ---
 Mose sometimes uses vim on the side of ST3, and can't do it without the pretty good eddie kao set of config files.
 
