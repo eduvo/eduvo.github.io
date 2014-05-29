@@ -26,7 +26,8 @@
 
 @media(max-width: 768px) {
   .navbar .nav {
-    padding-left: 10px;
+    width: 100%;
+    margin: 7.5px 0;
   }
 
   button.navbar-toggle {
