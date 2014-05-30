@@ -9,7 +9,6 @@ name: about
 
 ### {{ page.header }}
 
-![Faria United Nerds](assets/images/twitter_banner.png "Faria United Nerds")
 
 For some time at [Faria][1] we share some tips in our distributed team to improve our synchronization on small details of our coding life. And all was good and fuzzy.
 
