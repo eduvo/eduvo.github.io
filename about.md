@@ -19,7 +19,7 @@ Feel free to feedback to [devtips@faria.co][2].
 
 mose - Faria System Admin and Developers Advocate - 22 May 2014
 
-![Faria United Nerds](assets/images/twitter_banner.png "Faria United Nerds")
+![Faria United Nerds](assets/images/fariateam.png "Faria United Nerds")
 
 _Note: you may also want to check [Green Ruby][3], it's another publication from mose. It is a list of links instead of tips but the idea is similar._
 
