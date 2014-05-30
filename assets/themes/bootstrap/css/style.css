@@ -209,3 +209,9 @@ footer {
 .sponsor {
   text-align: right;
 }
+
+/* page-specific */
+.about .row img {
+  width: 100%;
+  height: auto;
+}
