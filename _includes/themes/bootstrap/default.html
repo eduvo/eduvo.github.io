@@ -32,6 +32,7 @@
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!--[if lt IE 9]>
@@ -56,10 +57,12 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-            <li><a href="http://feeds.feedburner.com/FariaDevTips">RSS</a></li>
+            <li><a href="archive.html"><i class="fa fa-bars text-info"></i> Archives</a></li>
+            <li><a href="tags.html"><i class="fa fa-tags text-info"></i> Tags</a></li>
+            <li><a href="authors.html"><i class="fa fa-user text-info"></i> Authors</a></li>
+            <li><a href="about.html"><i class="fa fa-info-circle text-info"></i> About</a></li>
+            <li><a href="http://feeds.feedburner.com/FariaDevTips"><i class="fa fa-rss text-info"></i> RSS</a></li>
+            <li><a href="http://twitter.com/fariadevtips"><i class="fa fa-twitter text-info"></i> @fariadevtips</a></li>
           </ul>
         </div>
       </div>
@@ -74,7 +77,7 @@
           </span>
           &copy; {{ site.time | date: '%Y' }} <b>{{ site.author.name }}</b>
           <br>Distributed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC-by-SA-4.0</a>
-          <br>Made with <a href="http://jekyllrb.com">Jekyll</a> on <a href="https://github.com/eduvo/eduvo.github.io">Github</a>.
+          <br>Made with <a href="http://jekyllrb.com">Jekyll</a> on <a href="https://github.com/eduvo/eduvo.github.io"<i class="fa fa-github"></i> Github</a>.
         </p>
       </footer>
     </div>

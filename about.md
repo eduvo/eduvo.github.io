@@ -15,13 +15,15 @@ And then we realized that those could and should be shared outside of the circle
 
 Oh those tips are not rocket science, many of them are very simple, tiny bits of usage, but even those feel good to share. Because the scope is internal we sometimes refer to the applications we are working on, like MB <http://managebac.com>, OA <http://openapply.com>, KB <http://keyb.com> or IS <http://intersis.com>.
 
+Side note: please indulge the english. None of our Nerds is a native english speaker so don't be too picky with the language :)
+
 Feel free to feedback to [devtips@faria.co][2].
 
 mose - Faria System Admin and Developers Advocate - 22 May 2014
 
 ![Faria United Nerds](assets/images/fariateam.png "Faria United Nerds")
 
-_Note: you may also want to check [Green Ruby][3], it's another publication from mose. It is a list of links instead of tips but the idea is similar._
+_Note: you may also want to check [Green Ruby][3]. It is a list of links instead of tips but the idea is similar._
 
 [1]: http://faria.co
 [2]: mailto:devtips@faria.co
