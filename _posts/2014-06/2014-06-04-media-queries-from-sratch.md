@@ -10,7 +10,7 @@ This is a small snippets set for media queries, if you don't want to learn/use a
 
 {% highlight sass %}
 body
-  background: reg
+  background: red
   +tablet
     background: green
   +desktop
