@@ -3,7 +3,7 @@ layout: post
 title:  Codemirror for mail templates
 tagline: and limit user errors
 tags: javascript codemirror
-category: ilake
+category: stephen
 date: 2014-06-05 15:40
 ---
 [Last time][1] I talked about `codemirror.js`, but you may still don’t see clearly what it can help with. Here is more about how I use it.
