@@ -215,3 +215,17 @@ footer {
   width: 100%;
   height: auto;
 }
+.tagline {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: #aaa;
+  font-size: 1.2em;
+}
+li.archive {
+  clear: both;
+  border-top: 1px dotted #ddd;
+  line-height: 30px;
+}
+li.archive:last-child {
+  border-bottom: 1px dotted #ddd;
+}

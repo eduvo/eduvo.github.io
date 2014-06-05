@@ -32,7 +32,20 @@ Usage:
       <ul class="posts-list">
     {% endif %}
 
-    <li><span>{{ post.date | date_to_string }} - </span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li class="archive">
+    {% unless post.tags == empty %}
+      <ul class="tag_box inline pull-right">
+        {% assign tags_list = post.tags %}
+        {% include JB/tags_list %}
+        {% unless post.category == empty %}
+        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ post.category }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ post.category }}">{{ post.category }}</a></li>
+        {% endunless %}
+      </ul>
+    {% endunless %}
+    <span>{{ post.date | date_to_string }} - </span>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <span>{{ post.tagline }}</span>
+    </li>
 
     {% if forloop.last %}
       </ul>
