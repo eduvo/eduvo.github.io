@@ -20,7 +20,16 @@ extrajs: tags
   {% assign pages_list = tag[1] %}
   <ul class="posts-list">
     {% for post in pages_list %}
-      <li><span>{{ post.date | date_to_string }} - </span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.tagline }}</span></li>
+      <li class="archive">
+        {% unless post.category == empty %}
+        <ul class="tag_box inline pull-right">
+          <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ post.category }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ post.category }}">{{ post.category }}</a></li>
+        </ul>
+        {% endunless %}
+        <span>{{ post.date | date_to_string }} - </span>
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+        <span>{{ post.tagline }}</span>
+        </li>
     {% endfor %}
   </ul>
 </div>
