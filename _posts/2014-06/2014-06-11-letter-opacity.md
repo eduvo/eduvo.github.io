@@ -3,7 +3,7 @@ layout: post
 title:  Letter opacity
 tagline: because webkit is weird sometimes
 tags: css
-category: neiting
+category: naiting
 date: 2014-06-11 12:40
 ---
 There is a bug about opacity in webkit-based browsers, when using specific font family that have variable size or [decorative swashes][1] (eg. Zapfino)
