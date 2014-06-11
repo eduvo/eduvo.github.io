@@ -6,7 +6,7 @@ tags: rubygems ruby
 category: ilake
 date: 2014-06-11 12:12
 ---
-Here are a couple of bundle commands I ues very often:
+Here are a couple of bundle commands I use very often:
 
 ### bundle show
 
