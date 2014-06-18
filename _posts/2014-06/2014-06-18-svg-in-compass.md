@@ -2,7 +2,7 @@
 layout: post
 title:  SVG in Compass
 tagline: experimental support
-tags: compass sass html5
+tags: compass sass css svg
 category: aaronh
 date: 2014-06-18 16:30
 ---
