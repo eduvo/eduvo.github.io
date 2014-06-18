@@ -3,7 +3,7 @@ layout: post
 title:  Git bisect
 tagline: to track where it broke
 tags: git
-category: stephen
+category: johnny
 date: 2014-06-18 12:30
 ---
 Sometimes when the codebase is broken and you are sure it is working perfectly fine on a certain commit, then it's time git bisect comes into place.
