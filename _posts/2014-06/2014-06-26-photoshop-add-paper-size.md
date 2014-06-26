@@ -31,3 +31,5 @@ Copy, paste, edit
 ![image 1](/assets/images/2014-06-26-photoshop-add-paper-sizes-6.png)
 
 Quit & relaunch photoshop, that's it, you can add more missing size now.
+
+p.s. the location of 'Default New Doc Sizes.txt' depends on what version and lauguage of Photoshop we've installed
