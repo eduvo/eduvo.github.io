@@ -2,7 +2,7 @@
 layout: post
 title:  Shell interactive filtering
 tagline: with peco
-tags: console
+tags: console git
 category: aaronh
 date: 2014-06-27 22:40
 ---
