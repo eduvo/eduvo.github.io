@@ -27,4 +27,4 @@ _Note: you may also want to check [Green Ruby][3]. It is a list of links instead
 
 [1]: http://faria.co
 [2]: mailto:devtips@faria.co
-[3]: http://greenruby.rog
+[3]: http://greenruby.org
