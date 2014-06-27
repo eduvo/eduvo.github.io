@@ -8,7 +8,7 @@ date: 2014-06-27 22:40
 ---
 First, you should install peco: <https://github.com/peco/peco>. It provide a simple interactive filtering interface in shell.
 
-Here an exemplae of usage: we can easily integrate peco into git checkout command when you want quickly search and checkout a branch.
+Here an exemple of usage: we can easily integrate peco into git checkout command when you want quickly search and checkout a branch.
 
 Add a alias in you `.gitconfig`
 
