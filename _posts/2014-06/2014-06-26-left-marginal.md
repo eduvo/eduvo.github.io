@@ -12,9 +12,10 @@ The code is quite short:
 
 {% highlight haml %}
 %h1 Main Header
-  %div.left-marginal
-    %h2.marginal-heading Left Heading
-    Main Content
+%div.left-marginal
+  %div.marginal-heading Left Heading
+  Main Content<br>
+  and more text
 {% endhighlight %}
 
 CSS:
@@ -28,7 +29,11 @@ CSS:
   left: -100px;
   top: 0;
   margin: 0;
+  width: 90px;
 }
 {% endhighlight %}
 
 This code puts Left Heading into the margin of the main content div. The idea is trivial, but tricky to guess, so, using it knowledgeably would improve the application style.
+
+<p data-height="169" data-theme-id="0" data-slug-hash="jkGEC" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/mose/pen/jkGEC/'>jkGEC</a> by Mose (<a href='http://codepen.io/mose'>@mose</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
