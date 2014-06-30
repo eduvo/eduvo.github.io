@@ -20,3 +20,17 @@ function! s:Repl()
 endfunction
 vmap <silent> <expr> p <sid>Repl()
 {% endhighlight %}
+
+*additionnal comment from hSATAC*
+
+It may not work well if you have `set clipboard=unnamed`, in which case you can use:
+
+{% highlight vim %}
+function! RestoreRegister()
+  let @" = s:restore_reg
+  if &clipboard == "unnamed"
+    let @* = s:restore_reg
+  endif
+  return ''
+endfunction
+{% endhighlight %}
