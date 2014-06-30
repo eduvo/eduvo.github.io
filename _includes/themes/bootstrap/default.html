@@ -15,8 +15,7 @@
     <!-- facebook opengraph -->
     <meta content='{{ page.title }}' property='og:title' />
     <meta content='company' property='og:type' />
-    <meta content='http://devtips.faria.co' property='og:url' />
-    <meta content='http://devtips.faria.co/assets/images/FariaDevTipsLogo.png' property='og:image' />
+    <meta content='{{ page.production_url  }}{{ page.url  }}' property='og:url' />
     <meta content='Faria Dev Tips' property='og:site_name' />
     <meta content='mose' property='fb:admins' />
     <meta content='{{ page.description }}' property='og:description' />
@@ -28,7 +27,6 @@
     <meta content='106' property='og:postal-code' />
     <meta content='Taiwan' property='og:country-name' />
     <meta content='devtips@faria.co' property='og:email' />
-
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet">
@@ -38,7 +36,6 @@
     <!--[if lt IE 9]>
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
-
     <link href="http://feeds.feedburner.com/FariaDevTips" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   </head>
