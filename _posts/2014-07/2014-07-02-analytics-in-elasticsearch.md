@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Analytics in Elasticsearch
-tagline: to track long tests
+tagline: are so fast
 tags: elasticsearch rails
 category: ilake
 date: 2014-07-02 20:00
