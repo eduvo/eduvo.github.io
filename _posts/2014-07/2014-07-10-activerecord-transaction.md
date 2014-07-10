@@ -2,7 +2,7 @@
 layout: post
 title: Activerecords transaction
 tagline: to save trouble
-tags: activerecords rails
+tags: activerecord rails
 category: johnny
 date: 2014-07-10 20:30
 ---
