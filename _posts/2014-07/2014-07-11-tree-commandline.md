@@ -70,4 +70,4 @@ projects/lolita
  7.4K used in 3 directories, 11 files
 {% endhighlight %}
 
-`man tree` for more.
+`man tree` for more (but the basic tree view is the real deal, for more detailled listings, `find` is better).
