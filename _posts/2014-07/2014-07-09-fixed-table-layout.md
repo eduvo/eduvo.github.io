@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixed table layout
-tagline: with one key down
+tagline: to keep things under control
 tags: css frontend
 category: oliver
 date: 2014-07-09 17:30
