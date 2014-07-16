@@ -6,7 +6,9 @@ tags: ruby
 category: ilake
 date: 2014-07-16 12:00
 ---
-slice_before is a convenient method to split stuff. for example you could easily split an array on even values.
+slice_before is a convenient method to split stuff.
+
+For example you could easily split an array on even values.
 
 {% highlight ruby %}
 [1,2,3,4,5].slice_before{|e| e%2 == 0 }.map{|a| a}
