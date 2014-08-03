@@ -4,6 +4,7 @@ title:  rspec-given
 tagline: like a cucumber without the cucumber
 tags: rails rails4 rspec testing
 category: ilake
+author: ilake
 ---
 Ilake wanted to share especially with the rails4 guys that are this time doing it right about testing, that in TPE we use rspec-given all over the place.
 

@@ -4,6 +4,7 @@ title:  Testing in Vim
 tagline: inside tmux
 tags: vim tmux console testing
 category: ilake
+author: ilake
 ---
 iLake has another console trick this week. With vim, he uses tmux, with zeus or spring, and Turbux + tslime
 

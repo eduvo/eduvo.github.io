@@ -4,6 +4,7 @@ title:  Merging arrays
 tagline: and remove duplicates
 tags: ruby
 category: stephen
+author: stephen
 date: 2014-06-18 12:40
 ---
 Here is a small tip for ruby array operation

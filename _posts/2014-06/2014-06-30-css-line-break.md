@@ -4,6 +4,7 @@ title:  CSS line break
 tagline: even inside tables
 tags: css
 category: oliver
+author: oliver
 date: 2014-06-30 20:40
 ---
 For line break in css, the basic usage is as following:

@@ -4,6 +4,7 @@ title:  Rails models namespacing
 tagline: to avoid cluttering
 tags: rails refactoring
 category: ihower
+author: ihower
 ---
 iHower has a trick for models files organization. For example there are too many transcript related files under `app/models`, so we can move all to sub-directory `app/models/transcript` very easily:
 

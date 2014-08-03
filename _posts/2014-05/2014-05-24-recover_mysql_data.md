@@ -4,6 +4,7 @@ title:  Recover mysql data
 tagline: from dumps
 tags: rails mysql
 category: roman
+author: roman
 ---
 Here is some tips from Roman. Broken data recovery is a common thing to do these days, either because users delete their stuff by accident, or the code breaks and writes wrong data to the system. We can classify all recovery tasks as:
 

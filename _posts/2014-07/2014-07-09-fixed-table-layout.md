@@ -4,6 +4,7 @@ title: Fixed table layout
 tagline: to keep things under control
 tags: css frontend
 category: oliver
+author: oliver
 date: 2014-07-09 17:30
 ---
 Table layout dynamically changes width according to its content. But it loses control if the width of the content is wider than the table column even if you give the table a fixed width or max-width property. The `{table-layout: fixed;}` solves this problem well.

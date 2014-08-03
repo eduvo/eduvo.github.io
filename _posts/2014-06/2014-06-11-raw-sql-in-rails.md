@@ -4,6 +4,7 @@ title:  Raw SQL in Rails
 tagline: for faster db manipulation
 tags: rails activerecord
 category: johnny
+author: johnny
 date: 2014-06-11 11:55
 ---
 Using ActiveRecord to query and update is easy but sometimes not so efficient. If the ERD relationship is complicated sometimes it take a lot of time to get the information, or to perform the change you actually need.

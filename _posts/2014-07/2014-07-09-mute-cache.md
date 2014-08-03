@@ -4,6 +4,7 @@ title: Mute cache
 tagline: in rails logs
 tags: rails
 category: aaronk
+author: aaronk
 date: 2014-07-09 21:30
 ---
 By Default, Rails.cache will write log when updating cache.

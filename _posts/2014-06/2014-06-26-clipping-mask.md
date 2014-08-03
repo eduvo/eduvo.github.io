@@ -4,6 +4,7 @@ title:  Clipping mask
 tagline: in photoshop
 tags: photoshop design
 category: oliver
+author: oliver
 date: 2014-06-26 15:00
 ---
 Use layer shape to be the mask.

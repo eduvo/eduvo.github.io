@@ -4,6 +4,7 @@ title: Chrome Developer Tools
 tagline: keyboard shortcuts
 tags: devtool javascript
 category: naiting
+author: naiting
 date: 2014-07-30 20:00
 ---
 The console in developer tools is pretty useful when debugging, and there are a small trick for clearing the console log:

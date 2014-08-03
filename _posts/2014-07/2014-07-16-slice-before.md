@@ -4,6 +4,7 @@ title: slice_before
 tagline: for custom splits
 tags: ruby
 category: ilake
+author: ilake
 date: 2014-07-16 12:00
 ---
 slice_before is a convenient method to split stuff.

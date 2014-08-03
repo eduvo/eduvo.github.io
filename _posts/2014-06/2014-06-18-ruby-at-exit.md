@@ -4,6 +4,7 @@ title:  Ruby at_exit
 tagline: for clever process termination
 tags: ruby
 category: aaronk
+author: aaronk
 date: 2014-06-19 17:50
 ---
 Here is a easy way we can ask ruby to execute something when a process is terminated. This applies mostly (but not only) to command-line code and daemons. Just use 'at_exit' in our process.

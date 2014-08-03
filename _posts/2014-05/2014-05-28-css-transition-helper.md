@@ -5,6 +5,7 @@ tagline: for sass with compass
 tags: sass compass
 category: naiting
 date: 2014-05-28 18:25
+author: naiting
 ---
 This is a component from an old project from mine, it's a switcher, very small but have lots of transition.Transition is easy, but there are some details like:
 

@@ -4,6 +4,7 @@ title:  Array literals
 tagline: and interpolation
 tags: ruby
 category: johnny
+author: johnny
 date: 2014-06-26 02:59
 ---
 When declaring an array of string, rather than declaring it literally as:

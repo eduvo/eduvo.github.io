@@ -4,6 +4,7 @@ title:  Photoshop add paper sizes
 tagline: for larger canvas
 tags: photoshop design
 category: naiting
+author: naiting
 date: 2014-06-26 12:50
 ---
 For example, the largest international paper size of A series in photoshop is A3

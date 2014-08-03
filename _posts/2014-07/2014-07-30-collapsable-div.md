@@ -4,6 +4,7 @@ title: collapsable div
 tagline: according to the width of container
 tags: css
 category: oliver
+author: oliver
 date: 2014-07-30 13:00
 ---
 This trick can detect if the content is wider than the container and it will display a icon if the container is too narrow, so you can click on the icon to expand.

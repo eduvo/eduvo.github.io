@@ -4,6 +4,7 @@ title: Animated screen capture
 tagline: and the gif gets alive
 tags: mac devtool
 category: frances
+author: frances
 date: 2014-08-01 13:00
 ---
 Check out LICEcap: <http://www.cockos.com/licecap/>

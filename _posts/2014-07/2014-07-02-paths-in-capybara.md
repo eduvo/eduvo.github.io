@@ -4,6 +4,7 @@ title:  Paths in Capybara
 tagline: when there are params
 tags: rspec rails testing
 category: rostyslav
+author: rostyslav
 date: 2014-07-02 21:00
 ---
 Here's another tip about RSpec/Capybara testing. So, for example, when you want to test a current path of a page you were redirected to or something, normally you will write something like this:

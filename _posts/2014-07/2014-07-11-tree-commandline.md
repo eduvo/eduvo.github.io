@@ -4,6 +4,7 @@ title: Tree command
 tagline: as a better ls
 tags: console
 category: mose
+author: mose
 date: 2014-07-11 12:30
 ---
 There is a shell tool that I install systematically on any new machine/server, it's `tree`.

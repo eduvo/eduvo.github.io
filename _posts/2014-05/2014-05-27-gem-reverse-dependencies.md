@@ -4,6 +4,7 @@ title:  Gem reverse dependencies
 tagline: who uses who
 tags: ruby rubygems
 category: mose
+author: mose
 ---
 I have been looking for a way to see what gem uses a gem, so I can see examples of integration in other projects. The rubygems API guide don't tell anything about such reverse dependency query. But it is actually there, it got merged some time ago, and optimized, but it is not documented yet (it runs really fast, kudos Rubygems guys).
 

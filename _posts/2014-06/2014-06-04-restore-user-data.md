@@ -4,6 +4,7 @@ title:  Restore user data
 tagline: from a mysql db
 tags: mysql sequelpro
 category: johnny
+author: johnny
 date: 2014-06-04 06:10
 ---
 Lets say you accidentally delete a user and want to put him back. I will go grab a db backup and intentionally delete this user to get the related deletion sql log (on all associated tables). Copy those log and do (because on mac)

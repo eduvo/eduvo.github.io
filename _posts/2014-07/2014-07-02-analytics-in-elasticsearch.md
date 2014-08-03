@@ -4,6 +4,7 @@ title:  Analytics in Elasticsearch
 tagline: are so fast
 tags: elasticsearch rails
 category: ilake
+author: ilake
 date: 2014-07-02 20:00
 ---
 You are wrong if your think elasticsearch could only be useful for your search feature. It also pretty good in analytics. It can help for some aggregation, like min, avg or percentiles etc...

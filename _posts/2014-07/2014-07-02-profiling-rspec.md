@@ -4,6 +4,7 @@ title:  Profiling Rspec
 tagline: to track long tests
 tags: rails rspec
 category: johnny
+author: johnny
 date: 2014-07-02 16:00
 ---
 Recently I am trying to shorten the time it takes to run rspec on OA. Profiling is a starting point to know which spec takes longest time.

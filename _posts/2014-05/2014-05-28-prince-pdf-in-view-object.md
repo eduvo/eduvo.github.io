@@ -5,6 +5,7 @@ tagline: with a doubt ...
 tags: rails pdf
 category: ilake
 date: 2014-05-28 18:35
+author: ilake
 ---
 The [princely gem][1] (from princexml) is convenient to generate pdf out of a controller, because we have a view object and I want the pdf generation to bind to it.
 

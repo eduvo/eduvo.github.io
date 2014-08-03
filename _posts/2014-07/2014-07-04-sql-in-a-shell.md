@@ -4,6 +4,7 @@ title: SQL in a shell
 tagline: and more from the parallel package
 tags: console sql
 category: mose
+author: mose
 date: 2014-07-04 14:10
 ---
 There is a package that is not installed by default that I now grab systematically, it's called `parallel`.

@@ -5,6 +5,7 @@ tagline: and manipulate the returned values
 tags: rails devtool
 category: aaronk
 date: 2014-05-28 19:30
+author: aaronk
 ---
 This week I have to do some benchmarking and I found out rails provides a library which can help accomplish it easily.
 

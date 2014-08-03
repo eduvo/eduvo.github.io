@@ -2,12 +2,45 @@ name: Faria Dev Tips
 title: Faria Dev Tips
 tagline: Tips for the dev
 markdown: kramdown
-pygments: true
+highlighter: pygments
 permalink: /:year-:month-:day-:title.html
 layouts: ./_layouts
 exclude: ['vendor', ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "src", "todo.todo"]
 paginate: 10
 paginate_path: "page:num"
+authors:
+  - mose:
+    name: mose
+  - aaronh:
+    name: aaronh
+  - aaronk:
+    name: aaronk
+  - naiting:
+    name: naiting
+  - oliver:
+    name: oliver
+  - ilake:
+    name: ilake
+  - ihower:
+    name: ihower
+  - frances:
+    name: frances
+  - evadne:
+    name: evadne
+  - roman:
+    name: roman
+  - rostyslav:
+    name: rostyslav
+  - roman:
+    name: roman
+  - heryien:
+    name: heryien
+  - johnny:
+    name: johnny
+  - michael:
+    name: michael
+  - stephen:
+    name: stephen
 author :
   name : Faria United Nerds
   email : nerds@faria.co

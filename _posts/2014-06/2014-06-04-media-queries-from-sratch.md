@@ -4,6 +4,7 @@ title:  Media queries from scratch
 tagline: because small is beautiful
 tags: sass mobile css
 category: naiting
+author: naiting
 date: 2014-06-04 12:00
 ---
 This is a small snippets set for media queries, if you don't want to learn/use a framework like sussy or breakpoint, you may like this

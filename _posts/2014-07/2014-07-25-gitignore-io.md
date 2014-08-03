@@ -4,6 +4,7 @@ title: Gitignore.io
 tagline: or .gitignore as a service
 tags: git
 category: aaronh
+author: aaronh
 date: 2014-07-25 11:00
 ---
 When you create a project, you may sometimes wonder what you need add in the `.gitignore` file.

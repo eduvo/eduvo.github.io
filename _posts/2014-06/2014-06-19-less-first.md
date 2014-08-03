@@ -4,6 +4,7 @@ title:  Less first
 tagline: for safer file examination
 tags: console
 category: mose
+author: mose
 date: 2014-06-19 14:50
 ---
 When working on a remote server, I use `less` instead of `tail` or `vi` to check files, the more I can.

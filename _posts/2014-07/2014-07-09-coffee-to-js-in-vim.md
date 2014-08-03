@@ -4,6 +4,7 @@ title: Coffee to Js in Vim
 tagline: with one key down
 tags: javascript coffeescript vim
 category: ilake
+author: ilake
 date: 2014-07-09 16:30
 ---
 If you are not very familiar with coffeescript you may want to know what it will look like when it is compiled to js. This is a simple script to help you do that in vim.

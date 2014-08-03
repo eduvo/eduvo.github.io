@@ -4,6 +4,7 @@ title:  Email interceptor
 tagline: to avoid spamming customers when coding
 tags: rails devtool
 category: ihower
+author: ihower
 ---
 This is a tip from iHower : In KB/OA/iSIS, we have a trick to intercept outbound email at non-production environment, so we can make sure we will never send test email to real customers.
 

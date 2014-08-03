@@ -4,6 +4,7 @@ title: Activerecords transaction
 tagline: to save trouble
 tags: activerecord rails
 category: johnny
+author: johnny
 date: 2014-07-10 20:30
 ---
 When you want to make sure a collection of actions take place without issue, you should put them into transaction to make sure none of them has raise a exception.

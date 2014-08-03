@@ -4,6 +4,7 @@ title:  Knife remote command
 tagline: when working with chef-server
 tags: chef knife devops
 category: mose
+author: mose
 date: 2014-06-26 13:50
 ---
 Recntly we switched from chef-solo to a chef-server setup on our infrastructure, a good occasion to refactor our recipes to better practices. I spent some time figuring out how to replace the `fabric` scripts I had for remote execution of actions on various servers, by using a knife plugin. That way I can just use knife abilities and don't need fabric anymore.

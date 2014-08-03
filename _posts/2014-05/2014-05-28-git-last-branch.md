@@ -5,6 +5,7 @@ tagline: a trick to type less
 tags: git console
 category: aaronh
 date: 2014-05-28 18:55
+author: aaronh
 ---
 Here is a small trick for git. The dash (or hyphen) `-` is an alias for the last branch used.
 

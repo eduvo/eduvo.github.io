@@ -4,6 +4,7 @@ title:  Footer in PrinceXml PDF
 tagline: with some touch of css
 tags: princexml
 category: roman
+author: roman
 date: 2014-06-19 02:50
 ---
 In this tip, we are going to add a custom footer to a PDF document, generated using Prince XML. Suppose we want to have a school name and logo in the left bottom corner, and a page number in the right bottom corner. We need to include the next CSS which declares it:

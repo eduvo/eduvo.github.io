@@ -4,6 +4,7 @@ title: Styled checkbox
 tagline: with some css
 tags: css frontend
 category: naiting
+author: naiting
 date: 2014-07-17 11:00
 ---
 Customize a checkbox input is always a good case to practice pseudo-class, pseudo-element, and adjacent sibling combinator selectors.

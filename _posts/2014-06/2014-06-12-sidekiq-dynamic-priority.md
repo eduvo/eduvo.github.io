@@ -4,6 +4,7 @@ title:  Sidekiq dynamic priority
 tagline: by chosing your queue at runtime
 tags: rails sidekiq
 category: ihower
+author: ihower
 date: 2014-06-12 06:05
 ---
 Dynamic Sidekiq priority job

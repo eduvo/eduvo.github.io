@@ -4,6 +4,7 @@ title:  Shadow in text
 tagline: because flat design is not mandatory
 tags: sass css
 category: oliver
+author: oliver
 ---
 We can use inset in the box-shadow property, but not in text-shadow.
 So we can trick this by using this following style (sass-flavor).

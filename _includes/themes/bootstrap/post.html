@@ -41,7 +41,7 @@
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
         {% unless page.categories == empty %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ page.categories }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ page.categories }}">{{ page.categories }}</a></li>
+        <li><a href="{{ BASE_PATH }}{{ site.JB.authors_path }}#{{ page.author }}-ref" class="tagbtn btn btn-info btn-xs" data-tag="{{ page.author }}">{{ page.author }}</a></li>
         {% endunless %}
       </ul>
     {% endunless %}

@@ -4,6 +4,7 @@ title: Gutter Color
 tagline: for sublimetext3
 tags: sublimetext css
 category: oliver
+author: oliver
 date: 2014-07-17 16:00
 ---
 Sublime text 3 has a cool plugin named GutterColor for CSS authors.

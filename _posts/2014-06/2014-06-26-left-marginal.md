@@ -4,6 +4,7 @@ title:  Left marginal
 tagline: for css positionning
 tags: css frontend
 category: roman
+author: roman
 date: 2014-06-26 13:10
 ---
 In this short tip from Roman, we will see the simple but useful CSS Pattern called Left Marginal. It helps to position an item to the left of the main content and is handy when styling additional headers etc.

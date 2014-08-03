@@ -4,6 +4,7 @@ title:  Photoshop custom sharpen
 tagline: with a cloned overlay
 tags: photoshop photo
 category: oliver
+author: oliver
 date: 2014-06-04 14:10
 ---
 Here is a useful and easy but professional photoshop tip. Use this following step to sharpen your image:

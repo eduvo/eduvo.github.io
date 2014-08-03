@@ -4,6 +4,7 @@ title:  Exception the good way
 tagline: to catch what you really need to catch
 tags: ruby
 category: roman
+author: roman
 date: 2014-06-11 15:20
 ---
 This tip from Roman describes the common exceptions catching bad practice, which everyone should be aware of and avoid. When writing

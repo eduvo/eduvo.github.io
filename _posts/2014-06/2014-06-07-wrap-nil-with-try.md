@@ -4,6 +4,7 @@ title:  Wrap nil with try
 tagline: and avoid errors
 tags: ruby
 category: roman
+author: roman
 date: 2014-06-07 01:03
 ---
 Here comes the tip from Roman, very small and probably obvious, but if you do not know about this method, it will be a nice little thing to keep in mind. When trying to call a method on a possibly nil object, we use try:

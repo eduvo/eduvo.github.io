@@ -4,6 +4,7 @@ title:  Vector clock
 tagline: for conflict detection
 tags: rabbitmq
 category: ihower
+author: ihower
 ---
 Now brace, here is a piece of science from iHower. He's implementing a conflict detection mechanism for the Message Bus.
 

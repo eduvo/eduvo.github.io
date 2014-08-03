@@ -4,6 +4,7 @@ title:  Chrome flicker fix
 tagline: and blur fix too
 tags: css
 category: naiting
+author: naiting
 date: 2014-06-19 02:30
 ---
 Sometimes we use `transform: translateZ(0);` or `backface-visibility: hidden;` to fix webkit-based browsers flicker caused by transition/animation, and it also fixes the image blur when using filters.

@@ -4,6 +4,7 @@ title: Git remerge
 tagline: again a feature branch
 tags: git
 category: roman
+author: roman
 date: 2014-07-15 10:30
 ---
 Here is the tip about messing with the wrongly merged feature branches in git.

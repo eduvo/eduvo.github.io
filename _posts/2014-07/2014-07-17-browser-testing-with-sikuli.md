@@ -4,6 +4,7 @@ title: Browser testing with Sikuli
 tagline: by simulating user actions
 tags: testing frontend
 category: frances
+author: frances
 date: 2014-07-17 11:30
 ---
 - <http://www.sikuli.org/download.html>

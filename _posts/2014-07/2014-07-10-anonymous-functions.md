@@ -4,6 +4,7 @@ title: Anonymous functions
 tagline: in javascript
 tags: javascript
 category: naiting
+author: naiting
 date: 2014-07-10 18:30
 ---
 There are several way to execute an anonymous functions in javascript

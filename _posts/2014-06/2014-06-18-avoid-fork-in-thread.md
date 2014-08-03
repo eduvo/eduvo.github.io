@@ -4,6 +4,7 @@ title:  Avoid fork in threads
 tagline: at least not with multi threads
 tags: ruby
 category: ilake
+author: ilake
 date: 2014-06-18 12:00
 ---
 A thread calling a fork is the only thread in the created child process. Fork doesn’t copy other threads.

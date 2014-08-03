@@ -4,6 +4,7 @@ title:  fs_usage debug
 tagline: for js compilation
 tags: mac console
 category: aaronh
+author: aaronh
 date: 2014-06-04 18:20
 ---
 Here is a system usage command in mac terminal. `fs_usage` can show you all file system action, I use it for asset-pipeline debugging.

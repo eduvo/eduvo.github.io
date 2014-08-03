@@ -4,6 +4,7 @@ title: Pagespeed insight
 tagline: from the commandline
 tags: console
 category: aaronh
+author: aaronh
 date: 2014-07-15 11:00
 ---
 PSI is a node module that can connect google's PageSpeed Insights and show the report on the command line, it also can work great with gulp and grunt.

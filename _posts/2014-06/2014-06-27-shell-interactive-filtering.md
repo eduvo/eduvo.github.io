@@ -4,6 +4,7 @@ title:  Shell interactive filtering
 tagline: with peco
 tags: console git
 category: aaronh
+author: aaronh
 date: 2014-06-27 22:40
 ---
 First, you should install peco: <https://github.com/peco/peco>. It provide a simple interactive filtering interface in shell.

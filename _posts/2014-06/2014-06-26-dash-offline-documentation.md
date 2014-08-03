@@ -4,6 +4,7 @@ title:  Dash offline documentation
 tagline: for mac
 tags: mac documentation
 category: aaronh
+author: aaronh
 date: 2014-06-26 16:00
 ---
 Dash is an offline documentation managemer on OSX

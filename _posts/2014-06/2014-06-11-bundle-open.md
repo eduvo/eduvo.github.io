@@ -4,6 +4,7 @@ title:  Bundle open
 tagline: and read the source of the gems directly
 tags: rubygems ruby
 category: ilake
+author: ilake
 date: 2014-06-11 12:12
 ---
 Here are a couple of bundle commands I use very often:

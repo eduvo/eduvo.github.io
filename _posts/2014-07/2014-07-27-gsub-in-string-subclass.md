@@ -4,6 +4,7 @@ title: Gsub in String subclass
 tagline: will not recognize its global variables
 tags: ruby
 category: ilake
+author: ilake
 date: 2014-07-27 11:00
 ---
 When you use gsub with a block on a sub-class of String, variables such as $1, $2, $`, $&, and $’ will not be set appropriately.

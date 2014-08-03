@@ -4,6 +4,7 @@ title:  Run rails post in console
 tagline: for debug or restoring data
 tags: pry rails
 category: johnny
+author: johnny
 ---
 Today I learn a trick to mimic a webhook in console.
 

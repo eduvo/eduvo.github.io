@@ -4,6 +4,7 @@ title: Reflect on association
 tagline: in activerecord
 tags: rails activerecord
 category: stephen
+author: stephen
 date: 2014-07-10 22:30
 ---
 In rails sometimes you need to grep model’s declared associations. If you want get all `:has_many` relationships, instead of enum all association names, you can use `reflect_on_all_associations(:has_many)`.

@@ -4,6 +4,7 @@ title:  SVG in Compass
 tagline: experimental support
 tags: compass sass css svg
 category: aaronh
+author: aaronh
 date: 2014-06-18 16:30
 ---
 With `$experimental-support-for-svg`, Compass brings a way to make websites compatible with modern browser.

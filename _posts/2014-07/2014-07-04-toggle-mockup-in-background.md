@@ -4,6 +4,7 @@ title: Toggle mockup in background
 tagline: for html/css authoring
 tags: css frontend
 category: naiting
+author: naiting
 date: 2014-07-04 14:30
 ---
 Before we do front-end job, we usually have a mockup (png or psd) from the visual designer, and we start to handcraft html, css and javascript. we can mark the dimensions on the mockup by some tools like [specctr][1] or [getmarkman][2], to make the process easier.

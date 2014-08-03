@@ -4,6 +4,7 @@ title: Association merging
 tagline: and don't forget to .reload
 tags: rails activerecord
 category: stephen
+author: stephen
 date: 2014-07-29 11:00
 ---
 Recently I had to develop a merge function, student A (master) needs to merge

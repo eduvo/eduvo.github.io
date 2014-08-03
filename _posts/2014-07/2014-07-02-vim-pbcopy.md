@@ -4,6 +4,7 @@ title:  Vim pbcopy
 tagline: to yank to clipboard
 tags: vim mac
 category: aaronh
+author: aaronh
 date: 2014-07-02 21:10
 ---
 This only works on Mac OSX:

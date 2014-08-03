@@ -4,6 +4,7 @@ title:  Database partial cleaner
 tagline: for faster tests
 tags: rails rspec testing
 category: roman
+author: roman
 ---
 On Rails 4 side, I would like to share the code which helps to speed up the tests and resolves the test DB initialization issue. Before running a test, there is the test DB setup action, which clears all tables. But if your test modifies only several tables, it is much better to clear and populate only these tables vs all.
 

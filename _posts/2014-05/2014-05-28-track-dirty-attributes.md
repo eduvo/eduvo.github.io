@@ -5,6 +5,7 @@ tagline: from an arbitrary model
 tags: rails activerecord
 category: ihower
 date: 2014-05-28 20:10
+author: ihower
 ---
 `ActiveRecord::Dirty` feature provides a way to track changes in your object. But how do we add support for an arbitrary attribute?
 

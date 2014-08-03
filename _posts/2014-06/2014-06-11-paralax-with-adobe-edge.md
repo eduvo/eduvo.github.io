@@ -4,6 +4,7 @@ title:  Parallax with Adobe Edge
 tagline: in a flash kind of UI and export in html
 tags: design css
 category: oliver
+author: oliver
 date: 2014-06-11 11:43
 ---
 There is a super easy solution for designer to build a parallax website. Adobe Edge Animation <http://html.adobe.com/edge/animate/>

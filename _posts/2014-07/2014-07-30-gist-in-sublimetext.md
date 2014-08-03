@@ -4,6 +4,7 @@ title: Gist in Sublimetext
 tagline: with the gist plugin
 tags: sublimetext
 category: johnny
+author: johnny
 date: 2014-07-30 12:00
 ---
 [Gist](https://gist.github.com) is a service provided by Github for publishing notes, and it supports version control. You can create your own or fork from others a little bit like for Github Repos. I found a plugin for inserting gist in my page inside Sublimetext.

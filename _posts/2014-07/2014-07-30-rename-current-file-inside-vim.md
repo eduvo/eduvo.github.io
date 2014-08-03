@@ -4,6 +4,7 @@ title: Rename current file in vim
 tagline: without getting out of it
 tags: vim
 category: ilake
+author: ilake
 date: 2014-07-30 11:00
 ---
 We often need to change the filename of the current file when we are coding, here is a easy way for renaming your current file in vim (just add it in your `.vimrc`).

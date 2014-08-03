@@ -4,6 +4,7 @@ title:  Vim leader key
 tagline: from outer space
 tags: vim config
 category: ilake
+author: ilake
 date: 2014-06-04 09:40
 ---
 In my `.vimrc` there is an important line
