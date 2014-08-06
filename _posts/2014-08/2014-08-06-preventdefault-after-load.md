@@ -1,6 +1,6 @@
 ---
 layout: post
-title: prevendDefault after load
+title: preventDefault after load
 tagline: requires delegation
 tags: javascript
 category: naiting
