@@ -8,7 +8,7 @@ author: aaronk
 date: 2014-08-20 07:00
 ---
 
-When using partial renderer, Rails adds the controller namespace as prefix while resolving the partial path. For example: when rendering ```@student``` under ```StudentsController``` the partial path becomes ```'students/student'```
+When using partial renderer, Rails adds the controller namespace as prefix the partial path generation. For example: when rendering ```@student``` under ```StudentsController``` the partial path becomes ```'students/student'```
 
 While doing it under Admin::StudentsController, the partial path will become ```'admin/students/student'```
 
