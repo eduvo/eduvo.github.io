@@ -31,3 +31,8 @@ This will override the second wrapper and will refer to the first wrapper class 
 
 	.wrapper .wrapper 
 	   .content{background: blue;}
+
+Here's a demo :
+
+<p data-height="392" data-theme-id="0" data-slug-hash="vIykm" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Oliverl/pen/vIykm/'>vIykm</a> by Oliver - Frontend Developer (<a href='http://codepen.io/Oliverl'>@Oliverl</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
