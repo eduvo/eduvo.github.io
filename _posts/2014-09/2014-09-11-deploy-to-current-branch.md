@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy to current branch
+title: Deploy current branch
 tagline: with capistrano
 tags: rails
 category: johnny
@@ -17,7 +17,7 @@ So we can
 
 But it's annoying to copy the branch name using mouse. Instead, we add this alias to our .bashrc file:
 
-    alias cb='git rev-parse --abbrev-ref HEAD'
+    alias cb="git rev-parse --abbrev-ref HEAD"
 
 Next time when we deploy your current branch, simply use:
 
