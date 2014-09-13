@@ -53,14 +53,14 @@ You can use this to repeat a command over and over again. It turns out to be ver
 
 Not only we can use `!!`, there are some other ways to use !, such as,
 
-- You can repeat a command in history, which starts with a specific string, such as `!string`. (It not has to be the last command been issued, only ever been issued in history. If there are more than one, you still also can use the arrow keys Up/Down to select them.)
+You can repeat a command in history, which starts with a specific string, such as `!string`. (It not has to be the last command been issued, only ever been issued in history. If there are more than one, you still also can use the arrow keys Up/Down to select them.)
 
     ~$ !e
     ------------------------------------------------------------
     ~$ echo "Testing"
     Testing
 
-- Or if you know the number of that command in history, just type `!20`, for example.
+Or if you know the number of that command in history, just type `!20`, for example.
 
     ~$ history | grep Testing
      6704* echo "Testing"
