@@ -41,6 +41,8 @@ authors:
     name: michael
   - stephen:
     name: stephen
+  - community:
+    name: community
 author :
   name : Faria United Nerds
   email : nerds@faria.co
