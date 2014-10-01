@@ -50,6 +50,9 @@ Then, you can use it in your project like:
   +font-weight(ultra)
 {% endhighlight %}
 
-:)
+:smile:
+
+<p data-height="250" data-theme-id="0" data-slug-hash="DtECx" data-default-tab="result" data-user="sliiice" class='codepen'>See the Pen <a href='http://codepen.io/sliiice/pen/DtECx/'>Retina-Specific Font Weight</a> by naiting (<a href='http://codepen.io/sliiice'>@sliiice</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
 
 *ps: also you can store the setting in a map if you use sass 3.3+*
