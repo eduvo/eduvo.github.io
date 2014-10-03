@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keydown event
-tagline: in the browser
+tagline: on input fields
 tags: javascript
 category: oliver
 author: oliver
